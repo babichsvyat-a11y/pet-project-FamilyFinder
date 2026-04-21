@@ -1,30 +1,30 @@
 # FamilyFinder 🏠
 
-**FamilyFinder** — це соціально орієнтований вебпроєкт, створений для того, щоб допомогти дітям із дитячих будинків знайти нові родини. Платформа виступає містком між закладами опіки та потенційними батьками, роблячи процес пошуку прозорим та зручним.
+**FamilyFinder** is a social-impact web application designed to help children in orphanages find their forever homes. The platform serves as a bridge between childcare institutions and prospective adoptive parents, making the search process more transparent and accessible.
 
-## 🎯 Мета проєкту
-Спростити процес знайомства з дітьми, які потребують родини. Завдяки створенню індивідуальних фото-сторінок, кожна дитина отримує можливість бути "почутою" в цифровому просторі, а майбутні батьки можуть легко знайти дітей у своєму регіоні.
+## 🎯 Project Goal
+To simplify the process of connecting children with potential families. By providing orphanages with a platform to create dedicated photo-profiles, we give each child a "digital face" and a voice, helping future parents find them more easily within their region.
 
-## ✨ Основні можливості
-* **Профілі дітей:** Спеціальні сторінки з фотографіями та інформацією, які створюють представники дитбудинків.
-* **Розумний пошук:** Система фільтрації, що дозволяє шукати дітей за:
-    * Областю;
-    * Містом.
-* **Зручний інтерфейс:** Багатосторінкова структура з інтуїтивно зрозумілою навігацією та боковими панелями (sidebar) для фільтрів.
-* **Адаптивність:** Сайт коректно відображається на різних пристроях завдяки сучасному підходу до верстки.
+## ✨ Key Features
+* **Child Profiles:** Detailed individual pages featuring photos and stories, managed by orphanage administrators.
+* **Smart Search System:** An intuitive filtering engine that allows users to browse profiles based on:
+    * **Region/Province**
+    * **City**
+* **User-Friendly Interface:** A multi-page structure featuring seamless navigation and a functional sidebar for quick filtering.
+* **Responsive Design:** A clean, accessible layout optimized for various screen sizes and devices.
 
-## 🛠️ Технологічний стек
-У цьому проєкті я зосередився на створенні чистої та семантичної структури:
-* **HTML5:** Використання семантичних тегів (`<header>`, `<main>`, `<aside>`, `<section>`) для кращої доступності (accessibility).
-* **CSS3:** * Складна верстка з використанням позиціювання елементів.
-    * Стилізація бокових панелей (sidebars) для зручної фільтрації.
-    * Створення сітки (grid/flexbox) для карток з профілями дітей.
+## 🛠️ Tech Stack
+This project focuses on clean, semantic code and modern layout techniques:
+* **HTML5:** Implementation of semantic tags (`<header>`, `<main>`, `<aside>`, `<section>`) for better SEO and web accessibility.
+* **CSS3:** * Advanced layout positioning and sidebar styling.
+    * Responsive grids and flexbox systems for profile card displays.
+    * Custom styling for a warm and trustworthy user experience.
 
-## 📂 Структура сторінок
-* **Головна сторінка:** Огляд місії та останні додані анкети.
-* **Пошук/Каталог:** Сторінка з фільтрами та результатами видачі.
-* **Профіль дитини:** Детальна інформація про дитину з фотогалереєю.
-* **Про нас:** Інформація про проєкт та контакти.
+## 📂 Page Structure
+* **Home Page:** Project mission overview and featured profiles.
+* **Search/Catalog:** The main discovery hub with integrated location filters.
+* **Child Profile:** Individual pages with photo galleries and detailed information.
+* **About Us:** Information about the initiative and contact details.
 
 ---
-*Проєкт створено як Pet-project для розвитку навичок Frontend-розробки та вирішення важливих соціальних питань.*
+*This is a pet project developed to sharpen Frontend development skills while addressing a meaningful social cause.*
