@@ -288,6 +288,70 @@ body{
 }
 
 
+.card {
+    background: #fdfeff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.profile-avatar-big img {
+    width: 100%;
+    border-radius: 15px;
+    border: 3px solid #1874aa;
+}
+
+
+.tag {
+    display: inline-block;
+    background: #e1f0f8;
+    color: #1874aa;
+    padding: 5px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px;
+}
+
+.auth-card {
+    background: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.full-width {
+    grid-column: span 2;
+}
+
+.btn-register {
+    width: 100%;
+    background: #fa7000;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 25px;
+    font-weight: 700;
+    cursor: pointer;
+}
 
 
 

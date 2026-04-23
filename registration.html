@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Ім'я Дитини | Проєкт "Назва"</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+        <a href="postlist.html"> 
+        <img src="img/logo.png" alt="Логотип" class="logo-img">
+        <span class="logo-text">FamilyFinder</span>
+        </a>   
+        </div>
+            </header>
+
+ <div class="skip-box"></div>
+ 
+
+<main class="auth-container">
+    <section class="auth-card">
+        <div class="auth-header">
+            <img src="img/logo.png" alt="FamilyFinder" class="logo-img">
+            <h1>Створення акаунту</h1>
+            <p>Ваша верифікація — запорука безпеки дітей</p>
+        </div>
+
+        <form class="registration-form">
+            <div class="form-grid">
+                <div class="form-group full-width">
+                    <label>Номер паспорта (ID-картки)</label>
+                    <input type="text" placeholder="000000000" required>
+                </div>
+                
+                <div class="form-group">
+                    <label>Номер телефону</label>
+                    <input type="tel" placeholder="+380..." required>
+                </div>
+
+                <div class="form-group">
+                    <label>Електронна пошта</label>
+                    <input type="email" placeholder="example@mail.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Прізвище та Ім'я</label>
+                    <input type="text" placeholder="Іванов Іван" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Місто проживання</label>
+                    <input type="text" placeholder="Харків">
+                </div>
+
+                <div class="form-group">
+                    <label>Рік народження</label>
+                    <input type="number" min="1950" max="2008" placeholder="1990">
+                </div>
+
+                <div class="form-group">
+                    <label>Стать</label>
+                    <select>
+                        <option>Чоловіча</option>
+                        <option>Жіноча</option>
+                    </select>
+                </div>
+            </div>
+
+            <button type="submit" class="btn-register">Зареєструватися</button>
+        </form>
+    </section>
+</main>
+
+<footer class="main-footer">
+        <p>&copy;2026 Svyatoslav. Зроблено з кодом та душею.</p>
+        <div class="socials">
+            <a href="#">LinkedIn</a>
+            <a href="#">GitHub</a>
+        </div>
+    </footer>
+
+</body>
+</html>    
